@@ -1,0 +1,79 @@
+///////////////////////////////////////////////////////////////////////////////
+// Filename: soundclass.h
+///////////////////////////////////////////////////////////////////////////////
+#ifndef _SOUNDCLASS_H_
+#define _SOUNDCLASS_H_
+
+
+/////////////
+// LINKING //
+/////////////
+#pragma comment(lib, "dsound.lib")
+#pragma comment(lib, "dxguid.lib")
+#pragma comment(lib, "winmm.lib")
+
+
+//////////////
+// INCLUDES //
+//////////////
+#include <windows.h>
+#include <mmsystem.h>
+#include <dsound.h>
+#include <stdio.h>
+
+
+///////////////////////////////////////////////////////////////////////////////
+// Class name: SoundClass
+///////////////////////////////////////////////////////////////////////////////
+class SoundClass
+{
+private:
+	// Structure for the WAV file format
+	struct WaveHeaderType
+	{
+		char chunkId[4];
+		unsigned long chunkSize;
+		char format[4];
+		char subChunkId[4];
+		unsigned long subChunkSize;
+		unsigned short audioFormat;
+		unsigned short numChannels;
+		unsigned long sampleRate;
+		unsigned long bytesPerSecond;
+		unsigned short blockAlign;
+		unsigned short bitsPerSample;
+		char dataChunkId[4];
+		unsigned long dataSize;
+	};
+
+public:
+	SoundClass();
+	SoundClass(const SoundClass&);
+	~SoundClass();
+
+	// Used to initialize DirectSound, load in the WAV file, and play it once
+	bool Initialize(HWND, char*);
+	// Shutdown releases the WAV file and shuts down DirectSound
+	void Shutdown();
+
+	bool LoadWaveFile(char*);
+
+	bool PlayWaveFile(bool looping);
+	bool StopWaveFile();
+	bool ResetWaveFile();
+
+private:
+	bool InitializeDirectSound(HWND);
+	void ShutdownDirectSound();
+
+	bool LoadWaveFile(char*, IDirectSoundBuffer8**);
+	void ShutdownWaveFile(IDirectSoundBuffer8**);
+
+private:
+	IDirectSound8* m_DirectSound;
+	IDirectSoundBuffer* m_primaryBuffer;
+	// Only one secondary buffer, as there's only one sound to load in
+	IDirectSoundBuffer8* m_secondaryBuffer1;
+};
+
+#endif

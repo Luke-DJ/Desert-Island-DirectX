@@ -1,0 +1,37 @@
+﻿  MyScene.cpp
+c:\users\u1752044\downloads\zhijie\u1752044 - studio 2 semester 1 - project file\engine\engine\myscene.cpp(16): warning C4316: 'ObjectClass': object allocated on the heap may not be aligned 16
+c:\users\u1752044\downloads\zhijie\u1752044 - studio 2 semester 1 - project file\engine\engine\myscene.cpp(25): warning C4316: 'ObjectClass': object allocated on the heap may not be aligned 16
+c:\users\u1752044\downloads\zhijie\u1752044 - studio 2 semester 1 - project file\engine\engine\myscene.cpp(36): warning C4316: 'ObjectClass': object allocated on the heap may not be aligned 16
+c:\users\u1752044\downloads\zhijie\u1752044 - studio 2 semester 1 - project file\engine\engine\myscene.cpp(46): warning C4316: 'ObjectClass': object allocated on the heap may not be aligned 16
+c:\users\u1752044\downloads\zhijie\u1752044 - studio 2 semester 1 - project file\engine\engine\myscene.cpp(57): warning C4316: 'ObjectClass': object allocated on the heap may not be aligned 16
+c:\users\u1752044\downloads\zhijie\u1752044 - studio 2 semester 1 - project file\engine\engine\myscene.cpp(68): warning C4316: 'ObjectClass': object allocated on the heap may not be aligned 16
+c:\users\u1752044\downloads\zhijie\u1752044 - studio 2 semester 1 - project file\engine\engine\myscene.cpp(78): warning C4316: 'ObjectClass': object allocated on the heap may not be aligned 16
+c:\users\u1752044\downloads\zhijie\u1752044 - studio 2 semester 1 - project file\engine\engine\myscene.cpp(89): warning C4316: 'ObjectClass': object allocated on the heap may not be aligned 16
+c:\users\u1752044\downloads\zhijie\u1752044 - studio 2 semester 1 - project file\engine\engine\myscene.cpp(99): warning C4316: 'ObjectClass': object allocated on the heap may not be aligned 16
+c:\users\u1752044\downloads\zhijie\u1752044 - studio 2 semester 1 - project file\engine\engine\myscene.cpp(110): warning C4316: 'ObjectClass': object allocated on the heap may not be aligned 16
+c:\users\u1752044\downloads\zhijie\u1752044 - studio 2 semester 1 - project file\engine\engine\myscene.cpp(121): warning C4316: 'ObjectClass': object allocated on the heap may not be aligned 16
+c:\users\u1752044\downloads\zhijie\u1752044 - studio 2 semester 1 - project file\engine\engine\myscene.cpp(132): warning C4316: 'ObjectClass': object allocated on the heap may not be aligned 16
+c:\users\u1752044\downloads\zhijie\u1752044 - studio 2 semester 1 - project file\engine\engine\myscene.cpp(142): warning C4316: 'ObjectClass': object allocated on the heap may not be aligned 16
+c:\users\u1752044\downloads\zhijie\u1752044 - studio 2 semester 1 - project file\engine\engine\myscene.cpp(152): warning C4316: 'ObjectClass': object allocated on the heap may not be aligned 16
+c:\users\u1752044\downloads\zhijie\u1752044 - studio 2 semester 1 - project file\engine\engine\myscene.cpp(162): warning C4316: 'ObjectClass': object allocated on the heap may not be aligned 16
+c:\users\u1752044\downloads\zhijie\u1752044 - studio 2 semester 1 - project file\engine\engine\myscene.cpp(172): warning C4316: 'ObjectClass': object allocated on the heap may not be aligned 16
+c:\users\u1752044\downloads\zhijie\u1752044 - studio 2 semester 1 - project file\engine\engine\myscene.cpp(182): warning C4316: 'ObjectClass': object allocated on the heap may not be aligned 16
+c:\users\u1752044\downloads\zhijie\u1752044 - studio 2 semester 1 - project file\engine\engine\myscene.cpp(195): warning C4316: 'ObjectClass': object allocated on the heap may not be aligned 16
+c:\users\u1752044\downloads\zhijie\u1752044 - studio 2 semester 1 - project file\engine\engine\myscene.cpp(205): warning C4316: 'ObjectClass': object allocated on the heap may not be aligned 16
+c:\users\u1752044\downloads\zhijie\u1752044 - studio 2 semester 1 - project file\engine\engine\myscene.cpp(216): warning C4316: 'ObjectClass': object allocated on the heap may not be aligned 16
+c:\users\u1752044\downloads\zhijie\u1752044 - studio 2 semester 1 - project file\engine\engine\myscene.cpp(228): warning C4316: 'ObjectClass': object allocated on the heap may not be aligned 16
+c:\users\u1752044\downloads\zhijie\u1752044 - studio 2 semester 1 - project file\engine\engine\myscene.cpp(240): warning C4316: 'ObjectClass': object allocated on the heap may not be aligned 16
+c:\users\u1752044\downloads\zhijie\u1752044 - studio 2 semester 1 - project file\engine\engine\myscene.cpp(252): warning C4316: 'ObjectClass': object allocated on the heap may not be aligned 16
+c:\users\u1752044\downloads\zhijie\u1752044 - studio 2 semester 1 - project file\engine\engine\myscene.cpp(263): warning C4316: 'ObjectClass': object allocated on the heap may not be aligned 16
+c:\users\u1752044\downloads\zhijie\u1752044 - studio 2 semester 1 - project file\engine\engine\myscene.cpp(274): warning C4316: 'ObjectClass': object allocated on the heap may not be aligned 16
+c:\users\u1752044\downloads\zhijie\u1752044 - studio 2 semester 1 - project file\engine\engine\myscene.cpp(286): warning C4316: 'ObjectClass': object allocated on the heap may not be aligned 16
+c:\users\u1752044\downloads\zhijie\u1752044 - studio 2 semester 1 - project file\engine\engine\myscene.cpp(298): warning C4316: 'ObjectClass': object allocated on the heap may not be aligned 16
+c:\users\u1752044\downloads\zhijie\u1752044 - studio 2 semester 1 - project file\engine\engine\myscene.cpp(310): warning C4316: 'ObjectClass': object allocated on the heap may not be aligned 16
+  Generating Code...
+  Skipping... (no relevant changes detected)
+  systemclass.cpp
+  main.cpp
+  graphicsclass.cpp
+  SceneClass.cpp
+  ObjectClass.cpp
+  Engine.vcxproj -> C:\Users\u1752044\Downloads\Zhijie\U1752044 - Studio 2 Semester 1 - Project File\Engine\Debug\Engine.exe
